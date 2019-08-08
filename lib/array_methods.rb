@@ -4,6 +4,7 @@ counter = 0
 while array[counter] < array.length do
   array[counter] == value_to_find
   return array[counter]
+  counter += 1
 end
 end
 

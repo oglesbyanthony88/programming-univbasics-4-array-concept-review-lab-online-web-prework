@@ -17,10 +17,10 @@ def find_max_value(array)
   while counter < array.length do
     if array[counter] > max
       max = array[counter]
-      return max
     else
       counter += 1
     end
+    return max
   end
 end
 
